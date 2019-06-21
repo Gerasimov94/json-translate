@@ -21,11 +21,15 @@ Library is using Google Trasnlate API.
     | source.json| json with source localization |
     | output.json | ***this json creates after compilation*** |
     
-* After that run command `./server.sh LANG PROJECT_ID`, where LANG - your target language, PROJECT_ID - your Google project id.
+* After that run command `./server.sh LANG PROJECT_ID`, where:
+    * LANG - your target language;
+    * PROJECT_ID - your Google project id.
+
     For example: `./server.sh fr mykey` - translate your JSON to french.
 
 ***warning!***
-Script works asynchronously, so it's maybe take a few minutes. Happy hacking!
+
+Script works asynchronously, so it's maybe take a few minutes. *Happy hacking*!
 
 License
 ----
