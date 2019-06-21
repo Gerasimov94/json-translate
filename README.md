@@ -1,27 +1,27 @@
 # json-translate
 
-This library helps to translate json on another languages.
-Library is using Google Trasnlate API.
+This library helps to translate JSON to other languages.
+It uses Google Trasnlate API.
 
 #### how to run app:
 
-* At first, you need to complete that steps: https://cloud.google.com/translate/docs/quickstart-client-libraries?hl=RU ;
+* First of all, you need to complete that steps: https://cloud.google.com/translate/docs/quickstart-client-libraries?hl=RU ;
 
-* Then you need to run at cloned repo:
+* Then, at cloned repo you need to run:
     ```sh
    $ chmod u+x server.sh
     ```
-* Took your private key JSON at root folder of app and rename it as: `key.json`
+* Took your private JSON key at the root folder of app and rename it to: `key.json`
 
     | Structure of project | description  |
     | ------ | ------ |
     | node_modules | |
     | index.js | script |
     | key.json | Google traslate API private key|
-    | source.json| json with source localization |
-    | output.json | ***this json creates after compilation*** |
+    | source.json| JSON with source localization |
+    | output.json | ***compiled JSON as a result of a script*** |
     
-* After that run command `./server.sh LANG PROJECT_ID`, where:
+* Then run command `./server.sh LANG PROJECT_ID`, where:
     * LANG - your target language;
     * PROJECT_ID - your Google project id.
 
@@ -29,7 +29,7 @@ Library is using Google Trasnlate API.
 
 ***warning!***
 
-Script works asynchronously, so it's maybe take a few minutes. *Happy hacking*!
+That script works asynchronously, so it may take a few minutes to complete. *Happy hacking*!
 
 License
 ----
